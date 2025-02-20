@@ -1,0 +1,36 @@
+.container {
+    width: 470px; 
+    padding: 20px; 
+    margin: 100px auto; 
+    border: 0px; 
+    border-radius: 10px; 
+    background-color: white; 
+}
+body{
+    background-color: white;
+}
+button{
+    width: 10rem;
+    margin-left :140px;
+    margin-top: 15px;
+}
+button:disabled {
+    background-color: #ccc;
+}
+
+input[type="date"]{
+    margin-left: 155px;
+    margin-bottom: 10px;
+}
+
+#timeLabel{
+    font-size:  8rem;
+    display: flex;
+    background-color: black;
+    color:white;
+    padding-left: 8px;
+}
+
+h1{
+    text-align: center;
+}
